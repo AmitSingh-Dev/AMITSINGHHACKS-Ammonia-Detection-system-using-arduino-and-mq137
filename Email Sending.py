@@ -1,8 +1,8 @@
 
 import smtplib
 
-sender_email = "aniketsingh9920932616@gmail.com"
-rec_email = "aniketsingh9920932616@gmail.com"
+sender_email = "YourMail@gmail.com"
+rec_email = "ReceiverMail@gmail.com"
 password = input(str("Please enter your password : "))
 message = "Hey, this was sent using python"
 
