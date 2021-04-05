@@ -9,7 +9,7 @@ message = "Hey, this was sent using python"
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 
-n=int(input("enter 2+3"))
+n=int(input("enter 2+3"))#doing this just for catpcha(BTW it will be added)
 if n==5:
     server.login(sender_email, password)
     print("Login success")
